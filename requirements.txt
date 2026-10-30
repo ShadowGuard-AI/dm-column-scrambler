@@ -1,1 +1,1 @@
-faker>=1.0.0
+# Standard library only. This tool imports nothing outside the Python standard library.
