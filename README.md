@@ -1,3 +1,5 @@
+![Banner](banner.png)
+
 # dm-column-scrambler
 Scrambles the order of columns in a CSV file while preserving headers, to obscure data relationships.  Uses `csv` module. - Focused on Tools designed to generate or mask sensitive data with realistic-looking but meaningless values
 
