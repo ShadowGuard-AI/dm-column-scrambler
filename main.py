@@ -29,7 +29,10 @@ def scramble_columns(input_file, output_file, seed=None):
     try:
         with open(input_file, 'r', newline='') as infile:
             reader = csv.reader(infile)
-            header = next(reader)  # Read the header row
+            header = next(reader, None)  # Read the header row
+            if header is None:
+                logging.error(f"Error: Input file is empty, no header row: {input_file}")
+                sys.exit(1)
             data = list(reader)  # Read all the data rows
 
         # Seed the random number generator if a seed is provided
@@ -44,10 +47,16 @@ def scramble_columns(input_file, output_file, seed=None):
         # Create the scrambled header
         scrambled_header = [header[i] for i in column_indices]
 
-        # Create the scrambled data
+        # Create the scrambled data. Hand edited CSVs often carry ragged
+        # rows; indexing a short row used to abort the whole run with
+        # "list index out of range". Short rows are padded with empty
+        # fields and long rows cut to the header width, which keeps the
+        # invariant the scrambler relies on: every output row lines up
+        # with the scrambled header, column for column.
         scrambled_data = []
         for row in data:
-            scrambled_row = [row[i] for i in column_indices]
+            padded = (row + [''] * len(header))[:len(header)]
+            scrambled_row = [padded[i] for i in column_indices]
             scrambled_data.append(scrambled_row)
 
         # Write the scrambled data to the output file
