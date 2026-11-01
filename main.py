@@ -37,11 +37,20 @@ def scramble_columns(input_file, output_file, seed=None):
             data = list(reader)  # Read all the data rows
 
         # Seed the random number generator if a seed is provided
+        # The seed is set on the shared random module, and the only
+        # draw after it is the one shuffle, so a seeded run repeats
+        # exactly for a file with the same number of columns. A file
+        # with a different column count draws a different permutation
+        # from the same seed, which is expected, not a mismatch.
         if seed is not None:
             random.seed(seed)
             logging.info(f"Using seed: {seed}")
 
         # Generate a random permutation of column indices
+        # One permutation list is applied to the header and to every
+        # row below. That sharing is the whole correctness of the tool:
+        # shuffle the header and the rows separately and the values
+        # would land under the wrong names with no error anywhere.
         column_indices = list(range(len(header)))
         random.shuffle(column_indices)
 
