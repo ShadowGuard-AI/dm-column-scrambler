@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" role="img" aria-label="The dead letter office in three bands: shelves standing still in the far band while window light drifts slowly across bundle edges and dust settles, a date stamp rising and falling and type slugs sliding down a composing stick and a ledger page turning in the middle band, and postmark impressions accumulating on a still envelope beside resting Dewey labels in the near band">
+<rect width="900" height="300" fill="#2f5d3a"/>
+<rect x="0" y="0" width="900" height="104" fill="#3a6a46"/>
+<g fill="#f2ead6"><rect x="30" y="22" width="52" height="62"/><rect x="96" y="18" width="58" height="66"/><rect x="168" y="24" width="50" height="60"/><rect x="640" y="20" width="56" height="64"/><rect x="710" y="16" width="60" height="68"/><rect x="784" y="22" width="52" height="62"/></g>
+<g stroke="#c9a227" fill="none" stroke-width="2"><rect x="38" y="30" width="36" height="14"/><rect x="104" y="26" width="42" height="14"/><rect x="718" y="24" width="44" height="14"/><rect x="792" y="30" width="36" height="14"/></g>
+<rect x="0" y="88" width="900" height="8" fill="#4a2f1b"/>
+<rect x="-200" y="0" width="200" height="104" fill="#f6eed3" opacity="0.16">
+<animate attributeName="x" values="-200; 900" dur="36s" repeatCount="indefinite"/></rect>
+<g fill="#f6eed3"><circle cx="240" cy="20" r="2"><animate attributeName="cy" values="14; 92" dur="19s" repeatCount="indefinite"/></circle><circle cx="420" cy="30" r="1.8"><animate attributeName="cy" values="10; 88" dur="24s" repeatCount="indefinite"/></circle><circle cx="580" cy="16" r="2"><animate attributeName="cy" values="18; 94" dur="22s" repeatCount="indefinite"/></circle></g>
+<rect x="0" y="104" width="900" height="104" fill="#2f5d3a"/>
+<rect x="0" y="104" width="900" height="10" fill="#6b4226"/>
+<g>
+<animateTransform attributeName="transform" type="translate" values="0 0; 0 0; 0 22; 0 22; 0 0" keyTimes="0; 0.55; 0.62; 0.8; 1" dur="11s" repeatCount="indefinite"/>
+<rect x="196" y="128" width="14" height="34" fill="#6b4226"/><ellipse cx="203" cy="124" rx="12" ry="10" fill="#4e2f1b"/><rect x="182" y="160" width="42" height="12" fill="#23232a"/></g>
+<circle cx="203" cy="192" r="17" fill="none" stroke="#c9a227" stroke-width="3" opacity="0">
+<animate attributeName="opacity" values="0; 0; 0.9; 0.9; 0" keyTimes="0; 0.6; 0.66; 0.92; 1" dur="11s" repeatCount="indefinite"/></circle>
+<g fill="#68686e" stroke="#e2e2e6" stroke-width="1"><rect x="330" y="146" width="150" height="14" fill="#46464c"/><rect x="338" y="150" width="16" height="7"><animate attributeName="x" values="338; 452" dur="9s" repeatCount="indefinite"/></rect><rect x="338" y="150" width="16" height="7"><animate attributeName="x" values="338; 424" dur="9s" begin="3s" repeatCount="indefinite"/></rect><rect x="338" y="150" width="16" height="7"><animate attributeName="x" values="338; 396" dur="9s" begin="6s" repeatCount="indefinite"/></rect></g>
+<g><rect x="600" y="126" width="150" height="66" fill="#f2ead6" stroke="#6b4226" stroke-width="3"/>
+<path d="M675 126 L750 126 L750 192 L675 192 Z" fill="#e6dabc">
+<animateTransform attributeName="transform" type="rotate" values="0 675 159; 0 675 159; -24 675 159; 0 675 159" keyTimes="0; 0.7; 0.82; 1" dur="17s" repeatCount="indefinite"/></path>
+<line x1="675" y1="126" x2="675" y2="192" stroke="#6b4226" stroke-width="2"/></g>
+<rect x="0" y="208" width="900" height="92" fill="#275134"/>
+<rect x="0" y="208" width="900" height="8" fill="#6b4226"/>
+<g><rect x="70" y="238" width="120" height="42" fill="#e6dabc"/><g stroke="#968a6e" stroke-width="2"><line x1="84" y1="250" x2="176" y2="250"/><line x1="84" y1="262" x2="176" y2="262"/><line x1="84" y1="274" x2="150" y2="274"/></g></g>
+<g><polygon points="420,232 700,224 716,282 436,290" fill="#f2ead6" stroke="#cec09e" stroke-width="2"/>
+<g fill="none" stroke="#5c5246" stroke-width="3"><circle cx="648" cy="244" r="19" opacity="0"><animate attributeName="opacity" values="0; 0.75; 0.75" keyTimes="0; 0.2; 1" dur="15s" repeatCount="indefinite"/></circle><circle cx="672" cy="256" r="16" opacity="0"><animate attributeName="opacity" values="0; 0; 0.65; 0.65" keyTimes="0; 0.35; 0.55; 1" dur="15s" repeatCount="indefinite"/></circle><circle cx="630" cy="262" r="14" opacity="0"><animate attributeName="opacity" values="0; 0; 0.55; 0.55" keyTimes="0; 0.62; 0.8; 1" dur="15s" repeatCount="indefinite"/></circle></g></g>
+</svg>
