@@ -19,12 +19,12 @@ Scrambles the order of columns in a CSV file while preserving headers, to obscur
 ![Major separator](sep-heavy.svg)
 
 ## Install
-`git clone https://github.com/ShadowStrikeHQ/dm-column-scrambler`
+`git clone https://github.com/ShadowGuard-AI/dm-column-scrambler`
 
 ![Minor separator](sep-light.svg)
 
 ## Usage
-`./dm-column-scrambler [params]`
+`python3 main.py input_file output_file [options]`
 
 ![Minor separator](sep-light.svg)
 
@@ -53,7 +53,7 @@ Scrambles the order of columns in a CSV file while preserving headers, to obscur
 ![Minor separator](sep-light.svg)
 
 ## License
-Copyright (c) ShadowStrikeHQ
+This project is released under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ![Major separator](sep-heavy.svg)
 
